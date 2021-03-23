@@ -1,0 +1,74 @@
+{
+ "creation": "2021-02-28 22:46:19.613129",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "type_of_work",
+  "lab",
+  "material",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "type_of_work",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Type Of Work",
+   "options": "DocType",
+   "reqd": 1
+  },
+  {
+   "fieldname": "lab",
+   "fieldtype": "Dynamic Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Lab",
+   "options": "type_of_work",
+   "reqd": 1
+  },
+  {
+   "fieldname": "material",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Material",
+   "options": "Testing of Cubes\nTesting of Bricks\nTesting of Water\nTesting of Sewage Water",
+   "reqd": 1
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Material",
+   "print_hide": 1,
+   "read_only": 1
+  }
+ ],
+ "is_submittable": 1,
+ "modified": "2021-02-28 22:48:24.861588",
+ "modified_by": "Administrator",
+ "module": "Selling",
+ "name": "Material",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
