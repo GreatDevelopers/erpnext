@@ -332,13 +332,20 @@ scheduler_events = {
 
 email_brand_image = "assets/erpnext/images/erpnext-logo.jpg"
 
+# default_mail_footer = """
+# 	<span>
+# 		Sent via
+# 		<a class="text-muted" href="https://erpnext.com?source=via_email_footer" target="_blank">
+# 			ERPNext
+# 		</a>
+# 	</span>
+# """
+
 default_mail_footer = """
-	<span>
-		Sent via
-		<a class="text-muted" href="https://erpnext.com?source=via_email_footer" target="_blank">
-			ERPNext
-		</a>
-	</span>
+       <span>
+               Testing and Consultancy Cell of Guru Nanak Dev Engineering College,<br>
+               Ludhiana: Serving technically since 1979.
+       </span>
 """
 
 get_translated_dict = {
