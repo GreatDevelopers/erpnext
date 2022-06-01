@@ -53,3 +53,16 @@ More sections to the webpage by adding more rows in the Page Building Blocks tab
 
 #### Adding web templates in web page builder
 Explored different web templates that can be used to create webpage more attractive and implemented it on webpages and added content according to the  requirments. For example I added section with collapsed content , cards , slider, hero slider,  hero with right image. There are many more web templates that can be used to build beautiful websites.
+
+## Working on learning management system in education module
+In learning management system we can publish the institute programs on the website. Programs can contain rich text articles, videos, and even quizzes. The progress of individual students can be tracked through ERPNext as well as the portal.
+#### Enabling LMS
+To enable LMS we first go to education module then click the settings and open education settings. Here, there is a checkbox using which the LMS can be enabled. 
+The portal is hosted on the /lms route.Here all the programs are shown in the form of cards. Each card is clickable and navigates to the corresponding program/course/topic/content.
+
+##  Setting up Learning management system
+- To make the Program accessible on the portal, we tick the 'Is Published' checkbox in the Program form. We can also tick the 'Is Featured' checkbox, which will show it on the portal landing page. The portal will automatically fetch the courses from the course table in the program.
+- On the portal, for students to be able to view the programs on the portal, a program has to be marked as Published. On the portal students will be able to see only those courses they are enrolled to or they are allowed to enroll into.
+
+##  Adding images in lms portal
+To make lms portal look more attractive added images for each particular class or program in the desk. The images added are automatically visible on published program cards on the lms website.
