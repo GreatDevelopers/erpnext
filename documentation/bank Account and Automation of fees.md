@@ -18,7 +18,9 @@ For creating new Fee collection head Create a new Account. Add account name-> Se
 - Save the newsletter we have another option schedule sending mail automatically.  
 
 ## Automation of Fee Creation of the Students
-first we nedd to customize the doctype and check the autorepat box in the doctype
+
+First we nedd to customize the doctype and check the autorepat box in the doctype
+
 - go to doctype list 
 - search for doctype name
 - allow autorepeat checkbox in the doctype 
